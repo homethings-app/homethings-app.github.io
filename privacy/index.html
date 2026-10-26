@@ -24,23 +24,29 @@
 
   <section id="vi" lang="vi">
     <h1>Chính sách quyền riêng tư</h1>
-    <p class="updated">Home Things · Cập nhật ngày 17/10/2026</p>
+    <p class="updated">Home Things · Cập nhật ngày 26/10/2026</p>
     <p>Home Things giúp bạn ghi lại đồ đạc trong nhà, hoá đơn, bảo hành, hạn dùng và linh kiện đã thay. Chúng tôi viết app để dữ liệu của bạn là của bạn.</p>
 
     <h2>Không cần tài khoản</h2>
     <p>App không có đăng nhập và không yêu cầu email, số điện thoại hay bất kỳ thông tin cá nhân nào.</p>
 
-    <h2>Chúng tôi chỉ nhận báo cáo lỗi</h2>
-    <p>App không có quảng cáo, không có công cụ thống kê, không theo dõi bạn và không bán hay chia sẻ dữ liệu của bạn. Thứ duy nhất app gửi đi là báo cáo lỗi khi app bị văng.</p>
+    <h2>App gửi gì ra ngoài</h2>
+    <p>App không có quảng cáo, không có công cụ thống kê, không theo dõi bạn và không bán dữ liệu của bạn. App chỉ gửi ra ngoài ba thứ: báo cáo lỗi khi app bị văng, một lần kiểm tra phiên bản mới mỗi khi mở app, và ảnh bạn chọn nhận diện bằng AI nếu bạn cho phép (xem bên dưới).</p>
 
     <h2>Báo cáo lỗi</h2>
     <p>Khi app bị văng, app gửi một báo cáo lỗi qua Firebase Crashlytics (dịch vụ của Google) để chúng tôi tìm và sửa lỗi. Báo cáo gồm vị trí lỗi trong mã của app, phiên bản app, mẫu iPhone, phiên bản iOS, thời điểm xảy ra lỗi và một mã cài đặt ngẫu nhiên. Báo cáo không chứa tên, email, Apple ID, món đồ, ảnh, ghi chú hay bất kỳ dữ liệu nào bạn nhập, và không dùng để quảng cáo hay theo dõi bạn. Báo cáo được lưu tối đa 90 ngày. Xem thêm <a href="https://firebase.google.com/support/privacy">quyền riêng tư của Firebase</a>.</p>
+
+    <h2>Kiểm tra phiên bản mới</h2>
+    <p>Mỗi khi mở, app hỏi Firebase Remote Config (dịch vụ của Google) xem có phiên bản mới cần cập nhật không. Yêu cầu này gồm phiên bản app, phiên bản iOS, ngôn ngữ, múi giờ và một mã cài đặt ngẫu nhiên của Firebase; không có món đồ, ảnh, ghi chú hay thông tin cá nhân nào. Để chặn yêu cầu giả mạo, app dùng Firebase App Check với App Attest của Apple, chỉ xác nhận rằng yêu cầu đến từ bản app thật.</p>
 
     <h2>Dữ liệu chỉ nằm trên máy của bạn</h2>
     <p>Món đồ, phòng, chỗ cất, ngày tháng, giá, ghi chú và ảnh bạn nhập được lưu trên iPhone của bạn. Xoá app sẽ xoá các dữ liệu này.</p>
 
     <h2>Camera và ảnh</h2>
     <p>App chỉ dùng camera khi bạn bấm chụp ảnh hoá đơn hoặc món đồ, và chỉ thấy những ảnh bạn tự chọn từ thư viện. Ảnh được lưu trong app trên máy bạn.</p>
+
+    <h2>Nhận diện ảnh bằng AI</h2>
+    <p>Khi bạn dùng “Thêm từ ảnh” và đã đồng ý, tấm ảnh đó (thu nhỏ) được gửi tới Google Gemini qua Firebase (dịch vụ của Google) để tìm và đặt tên các món đồ trong ảnh. Chỉ ảnh đó được gửi; app không gửi món đồ, ghi chú, tài khoản hay mã máy, và ảnh không gắn với bạn. App đang dùng gói miễn phí của Google, nên Google có thể dùng ảnh để cải thiện sản phẩm của họ. App hỏi bạn trước lần gửi đầu tiên; bạn có thể tắt bất cứ lúc nào trong Cài đặt ▸ “Nhận diện ảnh bằng AI”. Khi tắt hoặc chọn “Nhận diện trên máy”, ảnh được xử lý ngay trên iPhone và không gửi đi đâu. Xem thêm <a href="https://ai.google.dev/gemini-api/terms">điều khoản Gemini API</a>.</p>
 
     <h2>Thông báo</h2>
     <p>Lời nhắc trước khi hết bảo hành hoặc hết hạn được iPhone tạo và hiện ngay trên máy, không đi qua máy chủ nào. Bạn có thể tắt trong Cài đặt của iPhone.</p>
@@ -57,23 +63,29 @@
 
   <section id="en" lang="en">
     <h1>Privacy Policy</h1>
-    <p class="updated">Home Things · Updated 17 October 2026</p>
+    <p class="updated">Home Things · Updated 26 October 2026</p>
     <p>Home Things helps you keep track of the things in your home, their receipts, warranties, expiry dates and replaced parts. We built it so that your data stays yours.</p>
 
     <h2>No account</h2>
     <p>There is no sign-in. The app never asks for your email, phone number or any other personal information.</p>
 
-    <h2>We only receive crash reports</h2>
-    <p>There are no ads, no analytics and no tracking, and your data is never sold or shared. The only thing the app sends is a crash report when the app crashes.</p>
+    <h2>What the app sends</h2>
+    <p>There are no ads, no analytics and no tracking, and your data is never sold. The app sends only three things: a crash report when the app crashes, a check for a newer version each time the app opens, and a photo you choose to recognize with AI if you allow it (see below).</p>
 
     <h2>Crash reports</h2>
     <p>When the app crashes, it sends a crash report through Firebase Crashlytics (a Google service) so we can find and fix the problem. A report contains where in the app's code the crash happened, the app version, the iPhone model, the iOS version, the time of the crash and a random installation ID. It never contains your name, email, Apple ID, items, photos, notes or anything else you enter, and it is not used for ads or tracking. Reports are kept for up to 90 days. See <a href="https://firebase.google.com/support/privacy">Firebase privacy</a> for more.</p>
+
+    <h2>Version check</h2>
+    <p>Each time it opens, the app asks Firebase Remote Config (a Google service) whether a newer version is required. The request contains the app version, iOS version, language, time zone and a random Firebase installation ID; it never contains your items, photos, notes or any personal information. To block forged requests, the app uses Firebase App Check with Apple's App Attest, which only confirms that the request comes from the genuine app.</p>
 
     <h2>Your data stays on your device</h2>
     <p>The items, rooms, storage spots, dates, prices, notes and photos you enter are stored on your iPhone. Deleting the app deletes them.</p>
 
     <h2>Camera and photos</h2>
     <p>The app uses the camera only when you tap to photograph a receipt or an item, and sees only the photos you pick from your library. Photos are kept inside the app on your device.</p>
+
+    <h2>AI photo recognition</h2>
+    <p>When you use “Add from photo” and have allowed it, that photo (reduced in size) is sent to Google Gemini through Firebase (a Google service) to find and name the items in it. Only that photo is sent; the app never sends your items, notes, an account or a device ID, and the photo is not linked to you. The app uses Google's free tier, so Google may use the photo to improve its products. The app asks you before the first photo is sent, and you can turn this off at any time in Settings ▸ “Recognize photos with AI”. When it is off, or when you choose “Recognize on this iPhone”, the photo is processed on your iPhone and sent nowhere. See the <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a>.</p>
 
     <h2>Notifications</h2>
     <p>Reminders before a warranty or expiry date ends are created and shown by your iPhone itself, without any server. You can turn them off in iPhone Settings.</p>
@@ -82,7 +94,7 @@
     <p>An export file (a .zip file) is created only when you tap “Export data”. You decide where to save or send it. The app reads a file only when you choose “Import data”.</p>
 
     <h2>Children</h2>
-    <p>The app collects no personal information from anyone, including children. Crash reports contain no personal information.</p>
+    <p>The app collects no personal information from anyone, including children. Crash reports and photos sent for recognition are not linked to anyone.</p>
 
     <h2>Changes and contact</h2>
     <p>If this policy changes, this page will be updated with the date of the change. Questions are welcome at <a href="mailto:giaquyen1995@gmail.com">giaquyen1995@gmail.com</a>.</p>
